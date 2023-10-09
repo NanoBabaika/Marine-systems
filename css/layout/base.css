@@ -1,0 +1,79 @@
+body,
+html {
+  height: 100%;
+  font-family: 'Unbounded', sans-serif; 
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.42;
+  background: #FFF;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  margin-top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+address {
+  font-style: normal;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+  min-height: 1200px;
+}
+
+.wrapper {
+  background: url(../../img/bacgroundbsz.jpg);
+  background-size: cover;
+}
+
+.header__container {
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.main {
+  padding-top: 436px;
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.preview__container {
+  width: 1150px;  
+  display: flex;
+  flex-direction: column;
+}
+

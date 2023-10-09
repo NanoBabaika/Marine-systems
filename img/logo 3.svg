@@ -1,0 +1,25 @@
+<svg width="129" height="24" viewBox="0 0 129 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="logo 3" clip-path="url(#clip0_7201_5)">
+<g id="Clip path group">
+<mask id="mask0_7201_5" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="129" height="24">
+<g id="clip0_1_2">
+<path id="Vector" d="M129 0H0V24H129V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_7201_5)">
+<g id="Group">
+<path id="Vector_2" d="M68.4997 24.3152H59.0712L49.6007 13.7652V24.3152H42.3186V-0.0336914H49.6007V9.99911L58.4817 -0.0336914H67.4472L56.3353 11.4897L68.4997 24.3152Z" fill="white"/>
+<path id="Vector_3" d="M86.1823 8.9772L95.6994 -0.0493164H102.165V24.3152H94.7718V9.10223L86.7258 16.7415H85.6747L77.6361 9.10223V24.3152H70.2427V-0.0493164H76.6795L86.1823 8.9772Z" fill="white"/>
+<path id="Vector_4" d="M129.215 -0.00146484L116.341 19.0654H127.821V24.3152H104.452L117.366 5.2483H106.624V-0.00146484H129.215Z" fill="white"/>
+<path id="Vector_5" d="M14.6294 24.3359L29.4848 -0.00683594L38.9825 -0.00319358L24.4768 24.3359H14.6294Z" fill="#3C8AFF"/>
+<path id="Vector_6" d="M0.0471191 24.3359L14.9025 -0.00683594L24.4002 -0.00319358L9.89455 24.3359H0.0471191Z" fill="#3C8AFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_7201_5">
+<rect width="129" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

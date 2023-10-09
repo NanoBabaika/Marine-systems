@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.header__logo {
+  display: flex;
+  align-items: start;
+}
+
+
+
+.header__list {
+    margin-left: 808px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+
+.header__item {
+    margin-right: 46px;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.header__item:last-child {
+    margin-right: 0;
+}
+
+.contacts {
+    margin-left: 107px;
+    margin-right: 0;
+}
+
+.contacts__tel {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}

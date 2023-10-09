@@ -1,0 +1,41 @@
+
+
+.preview__title {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Unbounded', sans-serif; 
+    line-height: 60px;
+}
+
+.preview__desc {
+    padding-top: 40px;
+    font-family: 'Unbounded', sans-serif; 
+    font-size: 19px;
+    font-weight: normal;
+    line-height: 31px; 
+}
+
+.preview__btn {
+    display: flex;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 14px; 
+}
+
+
+.btn__blue {
+    height: 70px;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #3C8AFF;
+    color: #fff;
+    padding: 13px 28px;
+    cursor: pointer;
+}
+
+.blue__icon-img {
+    margin-right: 18px;
+}
