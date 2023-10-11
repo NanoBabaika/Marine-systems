@@ -57,7 +57,9 @@ address {
 
 .wrapper {
   background: url(../../img/bacgroundbsz.jpg);
-  background-size: cover;
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 .header__container {
@@ -72,8 +74,9 @@ address {
 }
 
 .preview__container {
-  width: 1150px;  
+  width: 1320px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 250px;
 }
 

@@ -15,63 +15,154 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="header__container">
-        <div class="header">
-          <!-- логотип -->
-          <div class="header__logo">
-            <img class="logo__img" src="./img/logo 3.svg" alt="логотип" />
-            <a class="logo__link" href="#"></a>
+      <div class="bg_container">
+        <div class="header__container">
+          <div class="header">
+            <!-- логотип -->
+            <div class="header__logo">
+              <img class="logo__img" src="./img/logo 3.svg" alt="логотип" />
+              <a class="logo__link" href="#"></a>
+            </div>
+            <!-- навигационное меню -->
+            <div class="header__nav">
+              <ul class="header__list">
+                <li class="header__item">
+                  <a href="#" class="header__nav-link">О компании</a>
+                </li>
+                <li class="header__item">
+                  <a href="#" class="header__nav-link">Каталог</a>
+                </li>
+                <li class="header__item">
+                  <a href="#" class="header__nav-link">Новости</a>
+                </li>
+                <li class="header__item">
+                  <a href="#" class="header__nav-link">Контакты</a>
+                </li>
+              </ul>
+            </div>
+  
+            <!-- Контакты -->
+            <adress class="contacts">
+              <a href="#" class="contacts__tel">+7 (812) 318-52-04</a>
+            </adress>
+  
+            <!-- выпадающее меню -->
+            <div class="dropdownmenu"></div>
           </div>
-          <!-- навигационное меню -->
-          <div class="header__nav">
-            <ul class="header__list">
-              <li class="header__item">
-                <a href="#" class="header__nav-link">О компании</a>
-              </li>
-              <li class="header__item">
-                <a href="#" class="header__nav-link">Каталог</a>
-              </li>
-              <li class="header__item">
-                <a href="#" class="header__nav-link">Новости</a>
-              </li>
-              <li class="header__item">
-                <a href="#" class="header__nav-link">Контакты</a>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Контакты -->
-          <adress class="contacts">
-            <a href="#" class="contacts__tel">+7 (812) 318-52-04</a>
-          </adress>
-
-          <!-- выпадающее меню -->
-          <div class="dropdownmenu"></div>
         </div>
-      </div>
-
-      <div class="main">
-        <div class="preview__container">
-          <section class="preview_section">
-            <h1 class="preview__title">
-              Комплексные морские системы катеров профессионального назначения
-            </h1>
-            <p class="preview__desc">
-              Разъездной патрульный катер предназначен для проведения
-              инспекционных работ и патрулирования, для оперативной работы в
-              качестве служебно-разъездного и спасательного водного транспорта
-              во внутренних акваториях и в прибрежных районах морей.
-            </p>
-            <div class="preview__btn">
-              <button class="btn__blue">Скачать презентацию
-                <div class="btn__blue-icon">
-                    <img src="./img/icons/download__icon.svg" alt="" class="blue__icon-img">
+  
+        <div class="main">
+          <div class="preview__container">
+            <section class="preview_section">
+              <h1 class="preview__title">
+                Комплексные морские системы катеров профессионального назначения
+              </h1>
+              <p class="preview__desc">
+                Разъездной патрульный катер предназначен для проведения
+                инспекционных работ и патрулирования, для оперативной работы в
+                качестве служебно-разъездного и спасательного водного транспорта
+                во внутренних акваториях и в прибрежных районах морей.
+              </p>
+              <div class="preview__btn">
+                <button class="btn__blue">
+                  Скачать презентацию
+                  <div class="btn__blue-icon">
+                    <img
+                      src="./img/icons/download__icon.svg"
+                      alt=""
+                      class="blue__icon-img"
+                    />
+                  </div>
+                </button>
+              </div>
+  
+              <div class="cards__container">
+                <div class="preview__cards">
+                  <ul class="preview__list">
+                    <li class="preview__item">
+                      <a href="" class="card__link">
+                        <img class="card__img" src="./img/card2.png" alt="" />
+                      </a>
+                      <h3 class="card__title">Специальные катера</h3>
+                     <div class="card__img-arrow">
+                       <img src="./img/icons/arrow.svg" alt="" class="arrow__img">
+                     </div>
+                    </li>
+                    <li class="preview__item">
+                      <a href="" class="card__link">
+                        <img class="card__img" src="./img/card3.png" alt="" />
+                      </a>
+                      <h3 class="card__title">Рабочие
+                        катера</h3>
+                     <div class="card__img-arrow">
+                       <img src="./img/icons/arrow.svg" alt="" class="arrow__img">
+                     </div>
+                    </li>
+                    <li class="preview__item">
+                      <a href="" class="card__link">
+                        <img class="card__img" src="./img/card2.png" alt="" />
+                      </a>
+                      <h3 class="card__title">Прогулочные
+                        катера</h3>
+                     <div class="card__img-arrow">
+                       <img src="./img/icons/arrow.svg" alt="" class="arrow__img">
+                     </div>
+    
+                    </li>
+                  </ul>
                 </div>
-              </button>
+              </div>
+              
+            </section>
+          </div>
+          <!-- шапка заказов -->
+          <section class="orders">
+            <div class="orders__container">
+              <div class="orders__head">
+                <ul class="orders__list">
+                  <li class="orders__item">
+                    <p class="orders__item-text">Мини текст</p>
+                    <h3 class="orders__item-title">Производство
+                      <a href="#" class="orders__item-link">
+                        <img src="./img/icons/arrow__black.svg" alt="" class="orders__item-img">
+                      </a>
+                    </h3>
+                  </li>
+                  <li class="orders__item">
+                    <p class="orders__item-text">Мини текст</p>
+                    <h3 class="orders__item-title">Производство
+                      <a href="#" class="orders__item-link">
+                        <img src="./img/icons/arrow__black.svg" alt="" class="orders__item-img">
+                      </a>
+                  </li>
+                  <li class="orders__item">
+                    <p class="orders__item-text">Мини текст</p>
+                    <h3 class="orders__item-title">Производство
+                      <a href="#" class="orders__item-link">
+                        <img src="./img/icons/arrow__black.svg" alt="" class="orders__item-img">
+                      </a>
+                  </li>
+                </ul>
+                
+                 
+              </div>
+              <div class="orders_bottom">
+                <p class="orders__desc">
+                  Подразделение малотоннажного судостроения КМЗ занимается производством катеров специального назначения.
+                </p>
+              </div>
             </div>
           </section>
+
+          <!-- форма заказа -->
+          <section class="orders__form">
+              <div class="orders__form-container"></div>
+              <h2 class="orders__form-title">Форма для уточнения</h2>
+          </section>
+
         </div>
       </div>
+
     </div>
   </body>
 </html>
