@@ -1,0 +1,83 @@
+.news {
+  margin-top: 120px;
+  display: flex;
+}
+
+.news__list {
+  display: flex;
+  flex-direction: row;
+}
+
+.news__item {
+  position: relative;
+  margin-right: 25px;
+}
+
+.news__item:last-child {
+  margin-right: 0;
+}
+
+.time-news__date {
+  background-color: blue;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+}
+
+.news__bottom {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.news__title {
+  font-family: PP Pangram Sans;
+  color: var(--black, #171717);
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 26px;
+  text-align: left;
+}
+
+.news-desc {
+  margin-top: 70px;
+  color: #808080;
+  text-align: left;
+  font-family: PP Pangram Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.news__read {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.read__link {
+  color: var(--black, #171717);
+  font-family: PP Pangram Sans;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.22px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.news__read-img {
+  margin-right: 18px;
+}
+
+/* Наведение должно быть на блок а не на изображение */
+.news__read-img:hover {
+    background-image: url(../../img/icons/arrowRightHover.svg);
+}
