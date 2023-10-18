@@ -1,0 +1,48 @@
+.swiper-section {
+  display: flex;
+  margin-top: 120px;
+  flex-direction: column;
+}
+
+.swiper__title {
+  margin-bottom: 70px;
+  color: var(--black, #171717);
+  font-family: Unbounded;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.swiper-orders {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.swiper__item-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+ 
+.orders__card-title {
+  color: var(--black, #171717);
+  font-family: Unbounded;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+
+.swiper__buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+

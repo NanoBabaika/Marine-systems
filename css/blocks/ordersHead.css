@@ -19,7 +19,15 @@
 .orders__item {
     margin-right: 120px;
     margin-left: 0;
+    width: 223px;
+    height: 77px;
 }
+
+/* .orders__item:hover {
+    background-image: url(../../img/icons/arrow__hover.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+} */
 
 .orders__item-text {
     color: #7A7A7A;

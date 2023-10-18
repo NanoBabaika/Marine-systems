@@ -59,6 +59,12 @@
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+  cursor: pointer;
+}
+
+.news__read:hover{
+  background-image: url(../../img/icons/arrowRightHover.svg);
+  background-repeat: no-repeat;
 }
 
 .read__link {
@@ -78,6 +84,6 @@
 }
 
 /* Наведение должно быть на блок а не на изображение */
-.news__read-img:hover {
+/* .news__read-img:hover {
     background-image: url(../../img/icons/arrowRightHover.svg);
-}
+} */
